@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- get 방식 전송 -->
+    <a href="./ex02.html">ex02</a><br/><br/>
+    <!-- 
+        데이터를 추가
+        ? / = / &
+        ./ex02.html?data1=value1
+        ./ex02.html?data1=value1&data2=value2 ...
+     -->
+     <a href="./ex02.html?data1=value1">ex02</a><br/><br/>
+     <a href="http://localhost:8080/html/ex02.html?data1=value1">ex02</a><br/><br/>
+     <a href="http://localhost:8080/html/ex02.html?data1=value1&data2=value2">ex02</a><br/><br/>
+
+     <!-- 
+        네이버 검색 
+        https://search.naver.com/search.naver
+        ?
+        * 필수 데이터 / 옵션 데이터
+        where=nexearch
+        &
+        sm=top_hty
+        &
+        fbm=0
+        &
+        ie=utf8
+        &
+        query=%EA%B7%80%EB%A9%B8%EC%9D%98+%EC%B9%BC%EB%82%A0
+    -->
+    <a href="https://search.naver.com/search.naver?query=귀멸의+칼날">네이버 검색</a>
+    <!-- 다음 페이지에서 "귀멸의 칼날" 검색을 get 방식으로 구현
+    https://search.daum.net/search
+    ?
+    w=tot
+    &
+    DA=YZR
+    &
+    t__nil_searchbox=btn
+    &
+    q=%EA%B7%80%EB%A9%B8%EC%9D%98+%EC%B9%BC%EB%82%A0
+    -->
+    <a href="https://search.daum.net/search?q=귀멸의+칼날">다음 검색</a><br /><br />
+</body>
+</html>

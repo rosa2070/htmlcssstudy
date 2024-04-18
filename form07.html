@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- post 방식 전송 -->
+    <!-- <form action="./ex02.html" method="get"> -->
+    <form action="./ex02.html" method="post">
+        데이터1 <input type="text" name="data1"/><br/><br/>
+        데이터2 <input type="text" name="data2"/><br/><br/>
+        <input type="reset" value="데이터 삭제"/>
+        <input type="submit" value="데이터 처리"/>
+    </form>
+
+    <br/><br/>
+
+    <!-- 네이버 검색 페이지 -->
+    <form action="https://search.naver.com/search.naver" method="get">
+        검색어 <input type="text" name="query"/>
+        <input type="submit" value="네이버 검색" />
+    </form>
+
+     <br/><br/>
+     <!-- 다음 검색 페이지 -->
+     <form action="https://search.daum.net/search" method="get">
+        검색어 <input type="text" name="q"/>
+        <input type="submit" value="다음 검색" />
+    </form>
+
+    <br/><br/>
+    <form action="./ex02.html" method="post">
+        데이터1 <input type="text" name="data1"/><br/><br/>
+        데이터2 <input type="text" name="data2"/><br/><br/>
+        <input type="submit" value="데이터 처리"/>
+        <input type="image" src="./button.png" width="200">
+        <button>데이터 처리</button>
+
+        <!-- 자바스크립트와 함께 상용 -->
+        <input type="button" value="데이터 처리">
+    </form>
+</body>
+</html>

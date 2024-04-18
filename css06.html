@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        /* 자손 selector */
+        /* div > p{color: red;} */
+        /* 후손 selector */
+        /* div p {color: red;} */
+        /* 동생 selector */
+        div + p {color: red;}
+    </style>
+</head>
+<!-- dom(document object model) tree -->
+<body>
+    <p>Hello CSS1</p>
+    <div>
+        <p>Hello CSS2</p>
+        <span>
+            <p>Hello CSS3</p>
+        </span>
+        <p>Hello CSS4</p>
+    </div>
+    <p>Hello CSS5</p>
+</body>
+</html>
